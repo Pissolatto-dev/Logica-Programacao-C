@@ -1,8 +1,8 @@
-# ⚔️ Dungeon Crawler: The Rot King's Domain
+#  Dungeon Crawler: The Rot King's Domain
 
 Este é o projeto de conclusão da disciplina de Programação I. Trata-se de um RPG de texto (Dungeon Crawler) desenvolvido inteiramente em **Linguagem C**, focado em modularização, persistência de dados e gerenciamento de estruturas complexas.
 
-## 🕹️ O Jogo
+##  O Jogo
 O jogador assume o papel de um aventureiro que deve explorar uma dungeon de 30 salas geradas proceduralmente. O objetivo é sobreviver aos encontros, derrotar monstros e chefes, e saquear equipamentos para se tornar forte o suficiente para enfrentar o desafio final.
 
 ### Principais Funcionalidades:
@@ -11,7 +11,7 @@ O jogador assume o papel de um aventureiro que deve explorar uma dungeon de 30 s
 * **Combate por Turnos**: Mecânica de batalha que calcula dano com base em atributos de ataque e defesa.
 * **Gestão de Inventário**: Sistema de equipamentos para armas e armaduras encontrados em baús.
 
-## 🛠️ Destaques Técnicos
+##  Destaques Técnicos
 
 O desenvolvimento deste projeto envolveu a aplicação de conceitos avançados de Ciência da Computação:
 
@@ -24,7 +24,7 @@ Foram utilizadas `structs` e `typedefs` para criar tipos de dados personalizados
 ### 3. Log de Aventura (Persistência de Dados)
 Uma funcionalidade de destaque é o **Sistema de Logs**. O programa utiliza funções de I/O de arquivos para gravar todas as ações importantes do jogador em um arquivo externo chamado `log_aventura.txt`. Isso demonstra a capacidade de implementar persistência de dados em tempo real.
 
-## 🚀 Como Executar
+##  Como Executar
 
 1.  Certifique-se de ter um compilador C (como o GCC) instalado.
 2.  Compile o arquivo principal:
